@@ -1,0 +1,22 @@
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.category-name {
+    font-size: 1.5rem;
+    font-weight: light;
+    margin: 20px 0;
+}
