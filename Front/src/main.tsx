@@ -6,7 +6,7 @@ import CartProvider from './context/CartContext';
 const apiURL = import.meta.env.VITE_API_URL  || 'http://localhost:8000';
 console.log("API URL:", apiURL);
 const client = new ApolloClient({
-  uri: `${apiURL}/graphql`,
+  uri: `${apiURL}/`,
   cache: new InMemoryCache(),
 });
 
